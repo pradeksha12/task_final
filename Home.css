@@ -1,0 +1,165 @@
+/* ... Your existing CSS */
+/* App.css (or your main CSS file) */
+@import '~font-awesome/css/font-awesome.css';
+
+.head{
+background-color: #a5c2cd;
+color: #fff;
+padding: 10px 0;
+display: flex;
+/* flex-direction: row; */
+justify-content: space-between;
+align-items: center;
+}
+.nav-links {
+  margin-top: 10px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  margin-right: 50px;
+/* Vertically center-align the navigation items */
+}
+
+.nav-links li {
+  margin-right: 20px; /* Add margin between navigation items */
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: large;
+}
+
+.nav-links a:hover {
+  text-decoration: underline;
+}
+
+/* ... Rest of your CSS */
+
+.headerimg {
+  text-align: center;
+  color: #fdfafa;
+  opacity: 5.6;
+  background-color: black;
+  padding: 100px;
+  background-image: url('headerimg.jpeg');
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Prevent image from repeating */
+  display: flex;
+}
+
+.homeh2 {
+  /* text-align: left; */
+  margin-left: 150px;
+  margin-right: 5%;
+  font-size: 2.5rem;
+}
+
+.h {
+  background-image: url('back.jpg');
+  padding: 200px;
+  background-repeat: no-repeat;
+  background-size: cover; /* Cover the entire viewport */
+  background-position: center;
+}
+.homeh1{
+  margin-right: 80%;
+  margin-left: 0%;
+  margin-top: 0%;
+  margin-bottom: 10%;
+}
+.logo {
+  margin-left: 20px; /* Adjust the margin as needed */
+  margin-top: 10px; /* Adjust the margin-top to position it vertically */
+  max-width: 100px; /* Set the maximum width for the logo */
+  height: auto; /* Maintain the aspect ratio of the logo */
+}
+
+
+.footer {
+  background-color: #333;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-container p {
+  font-size: 14px;
+  color: #fff;
+}
+ 
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* Style the footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Style the container within the footer */
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the contact information section */
+  .footer-contact {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  
+  
+/* Style the "Follow Us" section */
+.footer-social {
+  flex: 1;
+  text-align: center; /* Center-align text */
+  padding: 10px;
+}
+
+.footer-social h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+/* Style the social media icons (Font Awesome) */
+.social-icons {
+  list-style: none;
+  padding: 0;
+}
+
+.social-icons li {
+  margin-bottom: 10px; /* Add space between icons */
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  text-decoration: none;
+  transition: color 0.3s ease;
+  display: block; /* Display links as blocks for vertical layout */
+}
+
+.social-icons a:hover {
+  color: #a5c7cd;
+}
+.h3{
+  margin-top: 2000px;
+}

@@ -1,0 +1,55 @@
+/* Reset some default styles for better consistency */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #f2f2f2;
+}
+
+.page {
+  background-image: url('pexels.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 330px;
+}
+
+.left-card,
+.right-card {
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+  padding: 15px;
+  width: 30%; /* Adjust the width as needed */
+  text-align: center;
+}
+
+.left-card img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Center the text in the right card */
+.right-card p {
+  text-align: center;
+}
+
+/* Media query for responsiveness */
+@media (max-width: 768px) {
+  .page {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .left-card,
+  .right-card {
+      width: 100%;
+      margin-bottom: 20px;
+  }
+}

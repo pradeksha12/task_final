@@ -1,0 +1,38 @@
+/* TaskCard.css */
+.createtask{
+  margin-left: 250px;
+    margin-top: 20px;
+    text-align: center;
+    padding: 20px;
+
+}
+.tasktitle{
+  margin-top: 20px;
+  /* margin-bottom: 30px;
+  margin-left: 200px; */
+}
+.card-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  width: 300px;
+  text-align: center;
+}
+
+.tasktitle,
+.taskdescription {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+}

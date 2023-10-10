@@ -1,0 +1,46 @@
+/* Dashboard.css */
+
+.dashboard {
+  background-color: #333; /* Background color for the sidebar */
+  color: #fff; /* Text color */
+  width: 250px; /* Width of the sidebar */
+  height: 100%; /* Full height of the sidebar */
+  position: fixed; /* Fixed position to keep the sidebar visible */
+  top: 0;
+  left: 0;
+  padding: 20px;
+}
+
+.dashboard h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.nav-links2 {
+  margin-top: 40px;
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-links2 li {
+  margin-bottom: 10px;
+}
+
+.nav-links2 a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+.nav-links2 a:hover {
+  text-decoration: underline;
+}
+
+
+.content {
+  margin-left: 250px; 
+  padding: 20px;
+  background-color: #f4f4f4;}

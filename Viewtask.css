@@ -1,0 +1,128 @@
+/* view-task.css */
+
+/* Style the container */
+.view-task-container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff;
+}
+
+/* Style the task list */
+.task-list {
+  list-style: none;
+  padding: 0;
+}
+
+/* Style each task item */
+.task-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #080101;
+  border-radius: 5px;
+  background-color: #0e0404;
+  color: white; /* Text color for task items */
+}
+
+/* Style the task text */
+.task-text {
+  flex-grow: 1;
+  margin-right: 10px;
+}
+
+/* Style the delete button */
+.delete-button {
+  cursor: pointer;
+  padding: 5px 10px;
+  background-color: #ff5733;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+/* Style the delete button on hover */
+.delete-button:hover {
+  background-color: #e64a2e;
+}
+
+/* Style the priority dropdown */
+.priority-dropdown {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+  font-size: 16px;
+  background-color: white;
+}
+
+/* Center the h2 heading */
+.viewh2 {
+  text-align: center;
+  margin-left: 60px;
+  top:0;
+}
+
+/* Adjust the margin and color for the task list */
+.viewbody {
+  margin-left: 250px; /* Adjust as needed */
+  color: darkslategray;
+  margin-top: 20px; /* Adjust as needed */
+}
+
+/* Style the buttons in viewbutton class */
+.viewbutton button {
+  margin-right: 10px; /* Add space between buttons */
+}
+
+/* Style the search input */
+.search-input {
+  width: 200px; /* Adjust width as needed */
+  padding: 10px;
+  margin-right: 10px; /* Add space between input and filter */
+}
+
+/* Style the filter dropdown */
+.filter-dropdown {
+  width: 150px; /* Adjust width as needed */
+  padding: 10px;
+  margin-right: 10px; /* Add space between filter and button */
+}
+
+/* Style the search button */
+.search-button {
+  padding: 10px 15px;
+  background-color: #007bff; /* Adjust button color as needed */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Style the search button on hover */
+.search-button:hover {
+  background-color: #0056b3; /* Adjust hover color as needed */
+}
+
+.search-filter{
+  padding-left: 35%;
+  padding-right: 3%;
+  padding-top: 5%;
+
+}
+.viewt{
+  padding-left: 20%;
+  padding-top: 5%;
+}
+
+.date-filter{
+  margin-right: 20px;
+}
+.buttondel{
+  margin-right: 20px;
+}

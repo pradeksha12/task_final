@@ -1,0 +1,190 @@
+
+@import '~font-awesome/css/font-awesome.css';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box; 
+  }
+
+  body {
+    background-color: #f0f0f0;
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0; 
+    min-height: 100vh; 
+    display: flex; 
+    flex-direction: column; 
+  }
+  
+  /* Style the header section */
+  header {
+    background-color: #a5c7cd;
+    color: #fff;
+    padding: 10px 0;
+    text-align: center;
+  }
+  
+  /* Style the navigation bar */
+  nav {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+  }
+  
+  /* Style the main content section */
+  .aboutback {
+    padding: 20px;
+    background-image: url('../components/about.jpg'); /* Set the background image */
+    background-size: cover; /* Cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent image from repeating */
+    color: #fff; /* Set text color to white */
+    text-align: center; /* Center-align text */
+    flex-grow: 7; /* Allow content to expand and fill available space */
+  }
+  .about-section{
+    text-align: center;
+    padding: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+  }
+  
+  h1 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  h2 {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  
+  ul {
+    margin-top: 10px;
+    color: #fff; /* Set text color to white */
+  }
+  
+  li {
+    margin-bottom: 10px;
+  }
+  .feature-cards{
+    color: #333;
+  }
+  /* Style the feature cards container */
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  /* Style individual feature cards */
+  .feature-card {
+    flex: 0 1 calc(33.3333% - 20px); /* Adjust the width based on your layout needs */
+    background-color: #fff;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  /* Style feature card titles */
+  .feature-card h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style feature card descriptions */
+  .feature-card p {
+    font-size: 14px;
+  }
+  
+  /* Style the footer section */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  /* Style the footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+  }
+  
+  /* Style the container within the footer */
+  .footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  /* Style the contact information section */
+  .footer-contact {
+    flex: 1;
+    text-align: left;
+    padding: 10px;
+  }
+  
+  .footer-contact h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  /* Style the social media links section */
+  .footer-social {
+    flex: 1;
+    text-align: right;
+    padding: 10px;
+  }
+  
+  .footer-social h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-social ul {
+    list-style: none;
+  }
+  
+  .footer-social ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  .footer-social ul li a {
+    color: #fff;
+    font-size: 24px;
+    text-decoration: none;
+  }
+  
+  /* Style the social media icons (Font Awesome) */
+  .footer-social ul li a i {
+    transition: color 0.3s ease;
+  }
+  
+  .footer-social ul li a i:hover {
+    color: #a5c7cd;
+  }
+  

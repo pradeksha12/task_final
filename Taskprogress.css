@@ -1,0 +1,41 @@
+/* TrackProgress.css */
+
+table {
+    width: 80%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-right: 0px;
+    margin-left: 420px;
+  }
+  .progress-nav{
+    background-color:rgb(250, 249, 250);
+    padding-right: 400px;
+    margin-top: 30px;
+  }
+  thead {
+    background-color: #333;
+    color: #fff;
+  }
+  .taskh{
+    text-align: center;
+    padding-left: 300px;
+  }
+  
+  th, td {
+    padding: 8px 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  tr:hover {
+    background-color: #ddd;
+  }
+  
+  th {
+    background-color: #555;
+  }
+  
